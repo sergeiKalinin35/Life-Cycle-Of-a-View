@@ -82,10 +82,22 @@ class ViewController: UIViewController {
     
     
     
-    // 
+    // Срабатывает перед тем как вью закроется
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    // вью сейчас исчезнет
+    // можно ставить на паузу анимацию, различные действия которые выполняются на этом вью
+    //чтобы не использовать лишние рисурсы
     
     
     
+    // Срабатывает после закрытия вью
+    //вью закрылся
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
+    // удаляются ненужные данные  и ставится на паузу плее например игры 
     
     
     
