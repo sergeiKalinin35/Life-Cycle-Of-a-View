@@ -14,6 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Первичная настройка параметров  самого пиложения в целом . Определять интерфейс. Стартовый вью контроллер
+        // если работаем без сториборда
+        // пуш уведомления инициализация 
         return true
     }
 
